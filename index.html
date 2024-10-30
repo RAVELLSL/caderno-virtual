@@ -33,7 +33,11 @@
             max-width: 300px; /* Largura máxima para garantir a legibilidade */
             padding: 20px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             transition: transform 0.3s ease;
+            height: 250px; /* Define uma altura fixa para alinhar todos os cards */
         }
         .aula:hover {
             transform: translateY(-5px);
@@ -44,7 +48,7 @@
             margin-bottom: 10px;
         }
         .tematica {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .tematica h2 {
             color: #000;
@@ -52,9 +56,7 @@
             text-align: center;
         }
         .ficha {
-            border-top: 1px solid #ccc;
-            padding-top: 10px;
-            margin-top: 10px;
+            margin-top: auto;
             text-align: center;
         }
         .ficha a {
@@ -75,6 +77,7 @@
             .aula {
                 width: calc(100% - 30px); /* 100% menos o dobro da margem */
                 max-width: none; /* Remover a largura máxima para ocupar a largura total */
+                height: auto; /* Ajusta a altura para caber em telas menores */
             }
         }
     </style>
@@ -88,9 +91,9 @@
             <div class="data">05 de junho de 2024</div>
             <div class="tematica">
                 <h2>Automação vs. Inteligência Artificial</h2>
-                <div class="ficha">
-                    <p><a href="https://ravellsl.github.io/https-ravellsl.github.io-cadernovirtual-AutomacaoVersusIA/" target="_blank">Acessar<br>Ficha de Estudo</a></p>
-                </div>
+            </div>
+            <div class="ficha">
+                <a href="https://ravellsl.github.io/https-ravellsl.github.io-cadernovirtual-AutomacaoVersusIA/" target="_blank">Acessar<br>Ficha de Estudo</a>
             </div>
         </div>
         
@@ -98,9 +101,9 @@
             <div class="data">24 de Maio de 2024</div>
             <div class="tematica">
                 <h2>Sinais de Início da Quinta Revolução Industrial</h2>
-                <div class="ficha">
-                    <p><a href="https://ravellsl.github.io/cadernovirtual-quintarevolucaoindustrial/" target="_blank">Acessar<br>Ficha de Estudo</a></p>
-                </div>
+            </div>
+            <div class="ficha">
+                <a href="https://ravellsl.github.io/cadernovirtual-quintarevolucaoindustrial/" target="_blank">Acessar<br>Ficha de Estudo</a>
             </div>
         </div>
 
@@ -108,9 +111,9 @@
             <div class="data">30 de Outubro de 2024</div>
             <div class="tematica">
                 <h2>Custobots</h2>
-                <div class="ficha">
-                    <p><a href="https://ravellsl.github.io/cadernovirtual-custobots/" target="_blank">Acessar<br>Ficha de Estudo</a></p>
-                </div>
+            </div>
+            <div class="ficha">
+                <a href="https://ravellsl.github.io/cadernovirtual-custobots/" target="_blank">Acessar<br>Ficha de Estudo</a>
             </div>
         </div>
         
